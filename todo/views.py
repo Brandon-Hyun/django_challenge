@@ -18,7 +18,6 @@ def todo_info(request, todo_id):
             'start_date': todo.start_date,
             'end_date': todo.end_date,
             'is_completed': todo.is_completed,
-
         }
         return render(request, 'todo_info.html', {'data': info})
     except Todo.DoesNotExist:           # ????
