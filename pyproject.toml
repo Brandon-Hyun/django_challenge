@@ -1,9 +1,20 @@
+[project]
+name = "DjangoChallenge"
+version = "0.1.0"
+dependencies = [
+    "django",
+    "django-extensions",
+    "ipython",
+]
+package = false
+
+
 [tool.poetry]
-name = "django-challenge-02"
+name = "DjangoChallenge"
+package = false
 version = "0.1.0"
 description = ""
 authors = ["RandomUsername_Kr <theoriginaldongik@gmail.com>"]
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.14"
